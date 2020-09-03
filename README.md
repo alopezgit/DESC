@@ -39,7 +39,7 @@ To test the models we can run the following command
 
 `./test.sh KITTI_ROOT_FOLDER`
 
-By default it will load the model generated after finishing training, i.e, after running `./joint_training.sh`. You can modify test.py to load the pretrained models, we give examples to do so in the commented lines. Also, if you are evaluating the stereo-trained model, set the disable_median_scaling option in evaluate_model to 1.
+By default it will load the model generated after finishing training, i.e, after running `./joint_training.sh`. You can modify test.py to load the pretrained models, we give examples to do so in the commented lines. Also, if you are evaluating the stereo-trained model, set the `disable_median_scaling` option in `evaluate_model` to 1.
 
 
 ## Citation
