@@ -1,7 +1,7 @@
 # DESC: Domain Adaptation for Depth Estimation via Semantic Consistency
 This is the PyTorch implementation for our BMVC20 (Oral) paper:
 
-**A. Lopez-Rodriguez, K. Mikolajczyk. DESC: Domain Adaptation for Depth Estimation via Semantic Consistency.**
+**A. Lopez-Rodriguez, K. Mikolajczyk. DESC: Domain Adaptation for Depth Estimation via Semantic Consistency. [Paper](https://www.bmvc2020-conference.com/assets/papers/0122.pdf)**
 
 
 ## Environment/Requirements
