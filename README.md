@@ -57,7 +57,7 @@ If you use DESC for your research, you can cite the paper using the following Bi
 Our reported results for GASDA are better than those in the original [GASDA](https://arxiv.org/abs/1904.01870) paper due to an indexing bug the original GASDA code. The indexing bug was related to the test ground-truth generation from the Velodyne data, which has already been fixed in GASDA and now their results match those reported in our paper.
 
 ## Acknowledgments
-Code is inspired from [T^2Net](https://github.com/lyndonzheng/Synthetic2Realistic) and [GASDA](https://github.com/sshan-zhao/GASDA).
+Code is inspired by [T^2Net](https://github.com/lyndonzheng/Synthetic2Realistic) and [GASDA](https://github.com/sshan-zhao/GASDA).
 
 ## Contact
 Adrian Lopez-Rodriguez: al4415@ic.ac.uk
