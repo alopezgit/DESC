@@ -365,7 +365,6 @@ class DESCModel(BaseModel):
         loss_img_D.backward()
 
     def backward_G(self):
-        self.net_s2t.train()
         src_img_e = self.src_img.clone()
         batch_size = self.src_img.shape[0]
         if not self.pretrain_semantic_module:
@@ -406,7 +405,7 @@ class DESCModel(BaseModel):
             # We form the Sem. Seg. + Edges image from Section 3.2
             source_inp = torch.cat(
                 [semantic_seg_s, get_edges(src_img_e)[:, :1]], 1)
-            self.out_s, features_depth = self.netG_Sem(source_inp.clone())
+            self.out_s = self.netG_Sem(source_inp.clone())
 
         self.loss_source_supervised = 0.0
         # Multi-scale depth loss
