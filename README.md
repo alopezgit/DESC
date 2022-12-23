@@ -1,7 +1,10 @@
 # DESC: Domain Adaptation for Depth Estimation via Semantic Consistency
-This is the PyTorch implementation for our BMVC20 (Oral) paper:
+This is the PyTorch implementation for our BMVC20 (Oral) paper and our IJCV extension:
 
-**A. Lopez-Rodriguez, K. Mikolajczyk. DESC: Domain Adaptation for Depth Estimation via Semantic Consistency. [Paper](https://www.bmvc2020-conference.com/assets/papers/0122.pdf)**
+**A. Lopez-Rodriguez, K. Mikolajczyk. DESC: Domain Adaptation for Depth Estimation via Semantic Consistency. [[BMVC Paper]](https://www.bmvc2020-conference.com/assets/papers/0122.pdf) - [[IJCV Extension]](https://link.springer.com/article/10.1007/s11263-022-01718-1)**
+
+
+
 
 
 ## Environment/Requirements
@@ -43,13 +46,21 @@ By default it will load the model generated after finishing training, i.e, after
 
 
 ## Citation
-If you use DESC for your research, you can cite the paper using the following Bibtex entry:
+If you use DESC for your research, you can cite the paper using the following Bibtex entries:
 ```
 @inproceedings{lopez2020desc,
   title={DESC: Domain Adaptation for Depth Estimation via Semantic Consistency},
   author={Lopez-Rodriguez, Adrian and Mikolajczyk, Krystian},
   booktitle={British Machine Vision Conference (BMVC)},
   year={2020}
+}
+@article{lopez2022desc,
+  title={Desc: Domain adaptation for depth estimation via semantic consistency},
+  author={Lopez-Rodriguez, Adrian and Mikolajczyk, Krystian},
+  journal={International Journal of Computer Vision},
+  pages={1--20},
+  year={2022},
+  publisher={Springer}
 }
 ```
 
